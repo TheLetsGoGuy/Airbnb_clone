@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="1400" height="850" fill="#fafafa"/><text x="70" y="70" font-family="Arial" font-size="30" font-weight="700">Production-Scale Vacation Rental Marketplace</text>
+<g font-family="Arial" font-size="16"><rect x="70" y="130" width="220" height="90" rx="12" fill="#fff" stroke="#333"/><text x="95" y="165">Users / Browsers</text><text x="95" y="190">Desktop + Mobile</text>
+<rect x="350" y="130" width="250" height="90" rx="12" fill="#fff" stroke="#333"/><text x="375" y="165">CDN + Edge</text><text x="375" y="190">Static assets / TLS / WAF</text>
+<rect x="660" y="130" width="250" height="90" rx="12" fill="#fff" stroke="#333"/><text x="685" y="165">Web App</text><text x="685" y="190">React / Next.js</text>
+<rect x="970" y="130" width="300" height="90" rx="12" fill="#fff" stroke="#333"/><text x="995" y="165">API Gateway + Auth</text><text x="995" y="190">Rate limits / routing</text>
+<path d="M290 175H350M600 175H660M910 175H970" stroke="#333" stroke-width="3"/>
+<rect x="170" y="330" width="260" height="110" rx="12" fill="#fff" stroke="#333"/><text x="195" y="365">Listing Service</text><text x="195" y="390">Users, listings, bookings</text><text x="195" y="415">payments + reviews</text>
+<rect x="550" y="330" width="260" height="110" rx="12" fill="#fff" stroke="#333"/><text x="575" y="365">Search Service</text><text x="575" y="390">OpenSearch / Elasticsearch</text><text x="575" y="415">geo + filters</text>
+<rect x="930" y="330" width="260" height="110" rx="12" fill="#fff" stroke="#333"/><text x="955" y="365">Media Service</text><text x="955" y="390">Object storage + CDN</text><text x="955" y="415">image transformations</text>
+<path d="M1110 220V285H300V330M1110 220V285H680V330M1110 220V285H1060V330" fill="none" stroke="#333" stroke-width="3"/>
+<rect x="120" y="560" width="270" height="110" rx="12" fill="#fff" stroke="#333"/><text x="145" y="595">Primary DB</text><text x="145" y="620">PostgreSQL + read replicas</text><text x="145" y="645">partitioning / backups</text>
+<rect x="470" y="560" width="270" height="110" rx="12" fill="#fff" stroke="#333"/><text x="495" y="595">Cache</text><text x="495" y="620">Redis / sessions / hot listings</text><text x="495" y="645">distributed locking</text>
+<rect x="820" y="560" width="270" height="110" rx="12" fill="#fff" stroke="#333"/><text x="845" y="595">Object Storage</text><text x="845" y="620">S3-compatible media</text><text x="845" y="645">versioned + lifecycle rules</text>
+<rect x="1170" y="560" width="150" height="110" rx="12" fill="#fff" stroke="#333"/><text x="1188" y="595">Queue</text><text x="1188" y="620">Kafka / SQS</text><text x="1188" y="645">async jobs</text>
+<path d="M300 440V500H255V560M680 440V500H605V560M1060 440V560M1110 440V500H1245V560" fill="none" stroke="#333" stroke-width="3"/>
+<rect x="400" y="735" width="600" height="65" rx="12" fill="#fff" stroke="#333"/><text x="430" y="775">Observability: logs • metrics • tracing • CI/CD • feature flags • autoscaling</text>
+</g></svg>
